@@ -1,3 +1,4 @@
+console.log('Counting maximum call stack size...');
 var global = 0;
 
 let a = function() {
@@ -13,6 +14,6 @@ let b = function() {
 try {
   a();
 } catch (e) {
-  console.log(global);
+  console.log('Maximum call stack size is: ' + global);
   console.log(e);
 }
