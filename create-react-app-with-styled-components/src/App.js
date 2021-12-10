@@ -3,6 +3,8 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
+import { ListComponent } from './components/ListComponent/ListComponent';
+
 export default function App() {
   return (
     <Container maxWidth="sm">
@@ -11,6 +13,7 @@ export default function App() {
           Create React App v5 example with styled-components
         </Typography>
       </Box>
+      <ListComponent>zzzzz</ListComponent>
     </Container>
   );
 }
