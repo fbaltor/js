@@ -1,6 +1,8 @@
 const s = new Date().getSeconds();
 
-setTimeout(function() {
+const s = "
+
+setTimeout(function () {
   // prints out "2", meaning that the callback is not called immediately after 500 milliseconds.
   console.log('Ran after ' + (new Date().getSeconds() - s) + ' seconds');
 }, 500);
